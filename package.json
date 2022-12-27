@@ -1,0 +1,114 @@
+{
+    "name": "activcount-massively",
+    "description": "This is customized Massively theme, a text-heavy, article-oriented theme for Ghost. Customized home and topics pages.",
+    "demo": "https://massively.ghost.io",
+    "version": "22.12.1",
+    "engines": {
+        "ghost": ">=4.0.0",
+        "ghost-api": "v4"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot.jpg"
+    },
+    "scripts": {
+        "dev": "gulp",
+        "zip": "gulp zip",
+        "pretest": "gulp build",
+        "test": "gscan .",
+        "test:ci": "gscan --fatal --verbose .",
+        "preship": "yarn test",
+        "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
+    },
+    "author": {
+        "name": "Alexandre Bobkov",
+        "email": "abobk012@uottawa.ca",
+        "url": "https://activcount.ca"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Magazine",
+            "Business"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme",
+        "business"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TryGhost/Massively.git"
+    },
+    "bugs": "https://github.com/TryGhost/Massively/issues",
+    "contributors": [
+        {
+            "name": "ajlkn",
+            "email": "aj@lkn.io",
+            "url": "https://twitter.com/ajlkn"
+        }
+    ],
+    "devDependencies": {
+        "beeper": "2.1.0",
+        "gscan": "4.34.0",
+        "gulp": "4.0.2",
+        "gulp-livereload": "4.0.2",
+        "gulp-sass": "5.1.0",
+        "gulp-sourcemaps": "3.0.0",
+        "gulp-watch": "5.0.1",
+        "gulp-zip": "5.1.0",
+        "node-sass": "8.0.0"
+    },
+    "config": {
+        "posts_per_page": 12,
+        "custom": {
+            "title_font": {
+                "type": "select",
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
+                "default": "Modern sans-serif"
+            },
+            "body_font": {
+                "type": "select",
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
+                "default": "Elegant serif"
+            },
+            "website_name": {
+                "type": "text",
+                "default": "Alexandre Specialized Accounting Services"
+            },
+            "office_phone": {
+                "type": "text",
+                "default": "+1 (343) 202 - 2043"
+            },
+            "office_address": {
+                "type": "text",
+                "default": "M060 - 1554 Carling Ave, Ottawa (ON)  K1Z 7M4"
+            },
+            "url_Instagram": {
+                "type": "text",
+                "default": ""
+            },
+            "url_Facebook": {
+                "type": "text",
+                "default": "https://www.facebook.com/activcount/"
+            },
+            "url_qbo": {
+                "type": "text",
+                "default": "https://proadvisor.intuit.com/app/accountant/search?searchId=alexandre-bobkov"
+            },
+            "url_LinkedIn": {
+                "type": "text",
+                "default": "https://www.linkedin.com/company/5069161"
+            }
+        }
+    }
+}

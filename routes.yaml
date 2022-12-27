@@ -1,0 +1,4 @@
+routes:
+  //:
+  controller: channel
+  order: published_at asc
