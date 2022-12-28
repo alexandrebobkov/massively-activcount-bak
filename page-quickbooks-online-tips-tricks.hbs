@@ -17,7 +17,14 @@
 	        </div>
             <div class="col-6">
                 <h2>{{title}}</h2>
-                {{#primary_tag}}<p>{{name}}</p><p>{{description}}</p>{{/primary_tag}}
+                {{#primary_tag}}
+                    <p style="font-style:italic;">
+                        {{name}}
+                    </p>
+                    <p>
+                        {{description}}
+                    </p>
+                {{/primary_tag}}
                 
             </div>
         </header>
