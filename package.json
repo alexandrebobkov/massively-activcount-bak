@@ -108,6 +108,10 @@
             "URL_LinkedIn": {
                 "type": "text",
                 "default": "https://www.linkedin.com/company/5069161"
+            },
+            "Google Analytics API": {
+                "type": "text",
+                "default": "Paste your Google Analytics API here"
             }
         }
     }
