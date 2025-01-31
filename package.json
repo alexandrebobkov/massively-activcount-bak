@@ -21,7 +21,7 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Alexandre Bobkov",
+        "name": "Alexander Bobkov",
         "email": "abobk012@uottawa.ca",
         "url": "https://activcount.ca"
     },
@@ -83,7 +83,7 @@
             },
             "website_name": {
                 "type": "text",
-                "default": "Alexandre Specialized Accounting Services"
+                "default": "Alexander Specialized Accounting Services"
             },
             "office_phone": {
                 "type": "text",
