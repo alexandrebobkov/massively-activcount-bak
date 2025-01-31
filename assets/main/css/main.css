@@ -1235,7 +1235,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav{
     text-align: center;
     text-transform: uppercase;
     margin: 0rem auto 4rem auto;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     width: calc(100% - 4rem);
     max-width: 72rem;
