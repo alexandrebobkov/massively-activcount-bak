@@ -89,23 +89,23 @@
                 "type": "text",
                 "default": "+1 (343) 202 - 2043"
             },
-            "office_address": {
+            "Office_Address": {
                 "type": "text",
                 "default": "M060 - 1554 Carling Ave, Ottawa (ON)  K1Z 7M4"
             },
-            "url_Instagram": {
+            "URL_Instagram": {
                 "type": "text",
                 "default": ""
             },
-            "url_Facebook": {
+            "URL_Facebook": {
                 "type": "text",
                 "default": "https://www.facebook.com/activcount/"
             },
-            "url_qbo": {
+            "URL_QBO": {
                 "type": "text",
                 "default": "https://proadvisor.intuit.com/app/accountant/search?searchId=alexandre-bobkov"
             },
-            "url_LinkedIn": {
+            "URL_LinkedIn": {
                 "type": "text",
                 "default": "https://www.linkedin.com/company/5069161"
             }
