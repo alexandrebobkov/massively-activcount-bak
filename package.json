@@ -91,7 +91,11 @@
             },
             "Office_Address": {
                 "type": "text",
-                "default": "M060 - 1554 Carling Ave, Ottawa (ON)  K1Z 7M4"
+                "default": "M060 - 1554 Carling Ave."
+            },
+            "Office_Address_2": {
+                "type": "text",
+                "default": "Ottawa (ON)  K1Z 7M4"
             },
             "URL_Instagram": {
                 "type": "text",
