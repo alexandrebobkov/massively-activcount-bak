@@ -3,7 +3,7 @@
         {{#foreach navigation}}
         <li class="nav-{{slug}}
             {{#if current}}active{{/if}}"><a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a></li>
-            {{#else}}<a style="font-weight: normal; font-size: 1rem;" href="{{url absolute="true"}}">{{label}}</a></li>{{/else}}
+            {{else}}<a style="font-weight: normal; font-size: 1rem;" href="{{url absolute="true"}}">{{label}}</a></li>{{/else}}
         {{/foreach}}
     </ul>
     <ul class="icons">
