@@ -2,7 +2,7 @@
     "name": "activcount-massively",
     "description": "This is customized Massively theme, a text-heavy, article-oriented theme for Ghost. Customized home and topics pages.",
     "demo": "https://massively.ghost.io",
-    "version": "22.12.1",
+    "version": "25.2.1",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"
