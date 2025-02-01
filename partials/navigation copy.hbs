@@ -1,0 +1,22 @@
+<nav id="nav">
+    <ul class="links">
+        {{#foreach navigation}}
+        <li class="nav-{{slug}}
+            {{#if current}}active{{/if}}"><a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a></li>
+            {{else}}<a style="font-weight: normal; font-size: 1rem;" href="{{url absolute="true"}}">{{label}}</a></li>{{/else}}
+        {{/foreach}}
+    </ul>
+    <ul class="icons">
+        {{#if @custom.URL_LinkedIn}}
+        <li><a href="{{@custom.URL_LinkedIn}}" target="_blank" class="icon fa-linkedin" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+        {{/if}}
+        {{#if @custom.URL_Facebook}}
+        <li><a href="{{@custom.URL_Facebook}}" target="_blank" class="icon fa-facebook" title="Facebook"><span class="label">Facebook</span></a></li>
+        {{/if}}
+        {{#if @custom.URL_QBO}}
+        <li><a href="{{@custom.URL_QBO}}" target="_blank" class="icon fa-briefcase" title="QBO"><span class="label">QBO</span></a></li>
+        {{/if}}
+    </ul>
+</nav>
+
+{{!-- @custom.website_name -- <i class="fa-sharp fa-solid fa-briefcase"></i>--}}
