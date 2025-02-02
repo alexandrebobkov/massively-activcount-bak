@@ -19,15 +19,12 @@
     </ul>
 
     {{!-- Secondary navigation --}}
-  {{#if @site.secondary_navigation}}
+    {{#if @site.secondary_navigation}}
     {{!-- Secondary Navigation Button --}}
-     <button class="js-dropdown-toggle" title="{{t "More"}}">
-       {{t "More"}}
-     </button>
-     <div class="header__dropdown">
-        {{navigation type="secondary"}}
-     </div>
-  {{/if}}
+        <div class="header__dropdown">
+            {{navigation type="secondary"}}
+        </div>
+    {{/if}}
 </nav>
 
 {{!-- @custom.website_name -- <i class="fa-sharp fa-solid fa-briefcase"></i>--}}
