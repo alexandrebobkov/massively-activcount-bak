@@ -4752,7 +4752,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 .content {
     max-width: 700px;
-    margin: 0 auto
+    margin: 0 auto;
+    font-size: 1.25rem;
 }
 
 .has-serif-title .content [id] {
