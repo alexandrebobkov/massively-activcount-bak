@@ -4752,7 +4752,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .content {
-    max-width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     font-size: 1.25rem;
 }
