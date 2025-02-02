@@ -1,0 +1,9 @@
+routes:
+  //:
+  controller: channel
+  order: published_at asc
+  /blog/:
+		permalink: /blog/{slug}/
+		template: blog
+		filter: tag:blog
+		data: tag.blog
