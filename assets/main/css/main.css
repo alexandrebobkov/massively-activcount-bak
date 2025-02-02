@@ -3789,7 +3789,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.links li.active a {
-    !color: #1e252d;
+    color: #1e252d;
     color: green;
 }
 
