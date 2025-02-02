@@ -2,7 +2,8 @@
     <ul class="links">
         {{#foreach navigation}}
         <li class="nav-{{slug}}
-            {{#if current}}active{{/if}}"><a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a></li>
+            {{#if current}}active{{/if}}">
+            <a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
     </ul>
     <ul class="icons">
