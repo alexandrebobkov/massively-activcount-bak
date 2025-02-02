@@ -3840,7 +3840,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.post {
-    padding: 8rem 8rem 6rem 8rem
+    padding: 4rem 2rem 2rem 2rem
 }
 
 #main>.post header.major>.date {
