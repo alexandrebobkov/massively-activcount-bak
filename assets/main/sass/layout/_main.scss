@@ -10,7 +10,7 @@
 		background-color: _palette(bg);
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - #{_size(padding) * 2});
+		width: calc(100% - #{_size(padding) * 1});
 		max-width: _size(wrapper);
 		z-index: 2;
 
