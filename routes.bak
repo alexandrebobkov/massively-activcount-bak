@@ -1,9 +1,10 @@
 routes:
-  //:
-  controller: channel
-  order: published_at asc
-  /blog/:
-		permalink: /blog/{slug}/
-		template: blog
-		filter: tag:blog
-		data: tag.blog
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
