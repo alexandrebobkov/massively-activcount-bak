@@ -10,6 +10,10 @@
             {{/if}}
             {{#if @site.secondary_navigation}}
             {{! Render secondary menu or button }}
+                <li class="nav-{{slug}}
+                    {{#if current}}active{{/if}}">
+                    <a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a>
+                </li>
             {{/if}}
         {{/foreach}}
     </ul>
