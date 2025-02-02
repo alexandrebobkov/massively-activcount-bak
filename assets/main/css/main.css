@@ -3789,8 +3789,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 #nav ul.links li.active a {
-    color: #1e252d;
-    font-weight: bold;
+    !color: #1e252d;
+    color: green;
 }
 
 #nav ul.links li.active a:hover {
