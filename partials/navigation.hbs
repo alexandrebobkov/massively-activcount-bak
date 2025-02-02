@@ -1,9 +1,10 @@
 <nav id="nav">
     <ul class="links">
         {{#foreach navigation}}
-        <li class="nav-{{slug}}
-            {{#if current}}active{{/if}}">
-            <a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a></li>
+            <li class="nav-{{slug}}
+                {{#if current}}active{{/if}}">
+                <a style="font-weight: bold; font-size: 1.5rem;" href="{{url absolute="true"}}">{{label}}</a>
+            </li>
         {{/foreach}}
     </ul>
     <ul class="icons">
@@ -17,8 +18,6 @@
         <li><a href="{{@custom.URL_QBO}}" target="_blank" class="icon fa-briefcase" title="QBO"><span class="label">QBO</span></a></li>
         {{/if}}
     </ul>
-
-    
 </nav>
 
 {{!-- @custom.website_name -- <i class="fa-sharp fa-solid fa-briefcase"></i>--}}
