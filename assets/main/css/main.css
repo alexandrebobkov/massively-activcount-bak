@@ -3860,7 +3860,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 @media screen and (max-width: 1280px) {
     #main>.post {
-        padding: 6rem 4rem 4rem 4rem
+        padding: 4rem 4rem 4rem 4rem
     }
 }
 
