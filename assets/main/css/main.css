@@ -3820,7 +3820,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     background-color: #fff;
     position: relative;
     margin: 0 auto;
-    width: calc(100% - 4rem);
+    width: calc(100% - 2rem);
     max-width: 72rem;
     z-index: 2
 }
