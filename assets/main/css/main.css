@@ -213,7 +213,7 @@ html {
 
 @media screen and (max-width: 1680px) {
     html {
-        font-size: 11pt
+        font-size: 12pt
     }
 }
 
@@ -3820,7 +3820,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     background-color: #fff;
     position: relative;
     margin: 0 auto;
-    width: calc(100% - 2rem);
+    width: calc(100% - 4rem);
     max-width: 72rem;
     z-index: 2
 }
